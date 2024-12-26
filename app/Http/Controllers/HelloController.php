@@ -14,4 +14,7 @@ class HelloController extends Controller
         return  view('hello');  
     }
 
+    public function fifi2(){
+        return  view('hello2');  
+    }
 }
