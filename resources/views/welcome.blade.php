@@ -15,6 +15,10 @@
     <div>
     @yield('content')
     </div>
+    <x-message  color="text-red-500" msg="erreur"/>
+    <x-message  color="text-green-500" msg="Succès"/>
+    <x-message  color="text-orange-500" msg="Avertissement"/>
+  
    
 </body>
 </html>
